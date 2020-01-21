@@ -97,7 +97,7 @@ try:
 			standard_deviation = std_flag[0]
 			datalist.append(standard_deviation)
 			is_moving = std_flag[1]
-			datalit.append(is_moving)
+			datalist.append(is_moving)
 			print(str(passingtime)+" "+str(data)+" "+str(standard_deviation)+" "+str(is_moving))
 	
 			csv.writer(handle).writerow(datalist)
